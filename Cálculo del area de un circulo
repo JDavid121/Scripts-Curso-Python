@@ -1,0 +1,30 @@
+def areacirculo():
+#programa que calcula el area de un circulo
+    print(" ") #espacio
+    print(" ") #espacio
+    print("PROGRAMA QUE CALCULA EL AREA DE UN CIRCULO")
+    print(" ")
+    print(" ")
+    print("A=r2xPI ") #indica la formula a utilizar
+    print(" ")
+    print(" ")
+    r=input("Ingresar el radio del círculo en metros ") #almacena el radio del circulo en la var r
+    print(" ")
+    print(" ")
+    print("El radio del círculo es ... r =",r,"m") #Indica el valor del radio almacenado
+    D=2*float(r) #Cálculo del diámetro del círculo
+    print(" ")
+    print(" ")
+    print("El diámetro del círculo es D =",D,"m")
+    print(" ")
+    print(" ")
+    PI=3.14159 #Constante PI en la que se toman los primeros 5 decimales.
+    C=D*PI
+    R=float(r) #Para hacer las operaciones matemáticas, necesito transformar la variable str a float
+    A=(R**2)*(PI)
+    print("La circunferencia del círculo es C =",C,"m")
+    print(" ")
+    print(" ")
+    print ("El área del círculo es ...",A,"m2")
+
+#Fin del programa
