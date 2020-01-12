@@ -1,4 +1,4 @@
-def areacirculo():
+def areacirculo(): #Crea una función para llamar ap programa creación del área del círculo.
 #programa que calcula el area de un circulo
     print(" ") #espacio
     print(" ") #espacio
